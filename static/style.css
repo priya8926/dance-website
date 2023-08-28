@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Borel', cursive;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+#logo img {
+    height: 43px;
+    border-radius: 50%;
+}
+
+#navbar {
+    background-color: gray;
+    padding: 13px 14px;
+    color: white;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 11px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    background: center /cover no-repeat url('https://images.unsplash.com/photo-1618431379559-8dae023fb153?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    flex-direction: column;
+    height: 500px;
+}
+
+#introSection div.small {
+    font-size: 22px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card-img {
+    height: 113px;
+}
+.card-img img{
+    height: inherit;
+    background-color: transparent;
+}
+
+.card-content {
+    padding: 0 15px;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 30%;
+    margin: 19px 22px;
+    height: 200px;
+    display: inline-block;
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+#sponsorSectoin {
+    height: 30px;
+    background-color:white;
+}
+#sponsor {
+    height: 180px;
+    max-width:867px;
+    margin: 22px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsorSectoin h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 27px;
+}
+
+#footer {
+    background-color: black;
+    height: 75px;
+    color: white;
+    font-size: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
