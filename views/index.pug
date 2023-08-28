@@ -1,0 +1,60 @@
+doctype html 
+html 
+    head 
+        style 
+            include .../static/style.css
+body 
+    //- h1 My Site 
+    //- p Welcome to my super lamp site.
+    nav#navbar.top 
+        ul
+            div#logo
+                img(src="https://static.vecteezy.com/system/resources/thumbnails/008/251/368/small/dance-girl-logo-vector.jpg")
+                |   PDA
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About ]
+            li #[a(href = '/') Services ]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/') Contact us ]
+
+    section#introSection 
+        div Welcome to Priya's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF99y33o2-0VShqCW8t7feg0Dmps2PRo-m3Q&usqp=CAU")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy87RKn95KpyMhQLX-hUW2oPE1M6-4fyjWNw&usqp=CAU")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Export Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="https://thumbs.dreamstime.com/b/dancing-party-silhouettes-5925385.jpg")
+                div.card-content 
+                    p This is the best dance academy of the universe
+    section#sponsorSectoin
+        h2 Our sponsor
+        div#sponsor 
+            img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjYZIJMagSslTS_resTOUl4qgz5RT14pr6ng&usqp=CAU.jpg" , alt="loading..." class="spImage")
+            img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERlm1hp9qLVQ20D5cXsLGGybm5mEPW2HzXxCEUrWk&s" , alt="loading..." class="spImage")  
+            img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PI6qWZNDs-UKfv8oChLfi_gbpwkBlssw2g&usqp=CAU.jpg" , alt="loading..." class="spImage")
+            img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2QnZ1IMQtvsRnzI73YfJQq7BIa8wCSctng&usqp=CAU.jpg" , alt="loading..." class="spImage")
+         
+
+    footer#footer 
+        | copyright@2023 priyadanceacademy.com
+
+    script 
+        include ../static/index.js

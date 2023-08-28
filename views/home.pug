@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src='static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection 
+         div Welcome to Priya's Dance Academy 
+         div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+         h2 Our Mission
+    div.card 
+        h3 Dance Perfection
+        div.card-box 
+            div.card-img 
+                img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF99y33o2-0VShqCW8t7feg0Dmps2PRo-m3Q&usqp=CAU")
+            div.card-content 
+                p This is the best dance academy of the universe
+    div.card 
+        h3 Dance the way you like
+        div.card-box 
+            div.card-img 
+                img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy87RKn95KpyMhQLX-hUW2oPE1M6-4fyjWNw&usqp=CAU")
+            div.card-content 
+                p This is the best dance academy of the universe
+    div.card 
+        h3 Export Teaching
+        div.card-box 
+            div.card-img 
+                img(src="https://thumbs.dreamstime.com/b/dancing-party-silhouettes-5925385.jpg")
+            div.card-content 
+                p This is the best dance academy of the universe
+    section#sponsorSectoin
+          h2 Our sponsor
+    div#sponsor 
+        img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjYZIJMagSslTS_resTOUl4qgz5RT14pr6ng&usqp=CAU.jpg" , alt="loading..." class="spImage")
+        img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERlm1hp9qLVQ20D5cXsLGGybm5mEPW2HzXxCEUrWk&s" , alt="loading..." class="spImage")  
+        img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PI6qWZNDs-UKfv8oChLfi_gbpwkBlssw2g&usqp=CAU.jpg" , alt="loading..." class="spImage")
+        img(src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2QnZ1IMQtvsRnzI73YfJQq7BIa8wCSctng&usqp=CAU.jpg" , alt="loading..." class="spImage")
+
